@@ -1,4 +1,4 @@
-#BELANGRIJK  
+# BELANGRIJK  
   
 Haal deze code binnen op je Azure server of binnen de virtuele server die je lokaal installeerde.  
 **Haal deze code dus NIET binnen op je eigen laptop**  
