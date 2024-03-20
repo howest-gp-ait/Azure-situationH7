@@ -1,0 +1,14 @@
+﻿<Window x:Class="Ait.DefaultSituation.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ait.DefaultSituation.Wpf"
+        mc:Ignorable="d"
+        Title="Tool om de structuur van de cursus (H07) op mijn AD (Azure of lokale virtuele server) te plaatsen" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <ListBox x:Name="lstFeedback" HorizontalAlignment="Left" Height="312" Margin="53,80,0,0" VerticalAlignment="Top" Width="488"/>
+        <Button x:Name="btnCheck" Content="Check mijn AD en voeg indien nodig de OU's, groups en users toe" HorizontalAlignment="Left" Height="61" Margin="59,8,0,0" VerticalAlignment="Top" Width="486" Click="btnCheck_Click"/>
+
+    </Grid>
+</Window>
